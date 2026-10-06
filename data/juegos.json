@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "titulo": "Cyberpunk Legends",
+    "descripcion": "Sumérgete en un mundo futurista lleno de acción y decisiones críticas.",
+    "precioNormal": "$45.000",
+    "precio": "$34.990",
+    "imagen": {
+      "src": "images/img01.webp",
+      "alt": "Cyberpunk Legends"
+    },
+    "boton": {
+      "texto": "Ver detalles",
+      "url": "#comprar"
+    }
+  },
+  {
+    "id": "2",
+    "titulo": "Retro Pixel Odyssey",
+    "descripcion": "Una aventura clásica de plataformas inspirada en la era de los 16 bits.",
+    "precioNormal": "$25.000",
+    "precio": "$19.990",
+    "imagen": {
+      "src": "images/img02.webp",
+      "alt": "Retro Pixel Odyssey"
+    },
+    "boton": {
+      "texto": "Ver detalles",
+      "url": "#comprar"
+    }
+  },
+  {
+    "id": "3",
+    "titulo": "Galaxy Conflict VR",
+    "descripcion": "Combates espaciales épicos con soporte completo para realidad virtual.",
+    "precioNormal": "$55.000",
+    "precio": "$42.990",
+    "imagen": {
+      "src": "images/img03.webp",
+      "alt": "Galaxy Conflict VR"
+    },
+    "boton": {
+      "texto": "Ver detalles",
+      "url": "#comprar"
+    }
+  },
+  {
+    "id": "4",
+    "titulo": "Mystic Dungeon Crawler",
+    "descripcion": "Explora mazmorras generadas proceduralmente en cooperativo local u online.",
+    "precioNormal": "$30.000",
+    "precio": "$22.990",
+    "imagen": {
+      "src": "images/img04.webp",
+      "alt": "Mystic Dungeon Crawler"
+    },
+    "boton": {
+      "texto": "Ver detalles",
+      "url": "#comprar"
+    }
+  },
+  {
+    "id": "5",
+    "titulo": "Soul Calibur",
+    "descripcion": "El mejor juego de luchas, considerado una obra maestra técnica y uno de los mejores juegos de la historia.",
+    "precioNormal": "$60.000",
+    "precio": "$50.000",
+    "imagen": {
+      "src": "images/soul-calibur.jpg",
+      "alt": "Soul Calibur"
+    },
+    "boton": {
+      "texto": "Ver detalles",
+      "url": "#comprar"
+    }
+  },
+  {
+    "id": "6",
+    "titulo": "Golden Axe II",
+    "descripcion": "Es un juego de acción de tipo beat 'em up con desplazamiento lateral, lanzado por Sega en 1991.",
+    "precioNormal": "$40.000",
+    "precio": "$35.000",
+    "imagen": {
+      "src": "images/golden-axe.jpg",
+      "alt": "Golden Axe II"
+    },
+    "boton": {
+      "texto": "Ver detalles",
+      "url": "#comprar"
+    }
+  },
+  {
+    "id": "7",
+    "titulo": "Pac-Man",
+    "descripcion": "Un remake del juego lanzado en 1999 para la primera PlayStation, un simpático y divertido plataformas 3D.",
+    "precioNormal": "$25.000",
+    "precio": "$20.000",
+    "imagen": {
+      "src": "images/pac-man.jpg",
+      "alt": "Pac-Man"
+    },
+    "boton": {
+      "texto": "Ver detalles",
+      "url": "#comprar"
+    }
+  },
+  {
+    "id": "8",
+    "titulo": "Rally-X",
+    "descripcion": "Rally-X es un clásico videojuego de laberintos y conducción lanzado en 1980 por Namco.",
+    "precioNormal": "$15.000",
+    "precio": "$10.000",
+    "imagen": {
+      "src": "images/rally-x.jpg",
+      "alt": "Rally-X"
+    },
+    "boton": {
+      "texto": "Ver detalles",
+      "url": "#comprar"
+    }
+  },
+  {
+    "id": "9",
+    "titulo": "Contra",
+    "descripcion": "Contra es un famoso videojuego de tipo run and gun (correr y disparar) creado y publicado por Konami.",
+    "precioNormal": "$30.000",
+    "precio": "$25.000",
+    "imagen": {
+      "src": "images/contra.jpg",
+      "alt": "Contra"
+    },
+    "boton": {
+      "texto": "Ver detalles",
+      "url": "#comprar"
+    }
+  },
+  {
+    "id": "10",
+    "titulo": "Cadillacs and Dinosaurs",
+    "descripcion": "Famoso videojuego arcade de tipo beat 'em up lanzado por Capcom en 1992.",
+    "precioNormal": "$40.000",
+    "precio": "$35.000",
+    "imagen": {
+      "src": "images/cadillacs-dinosaurs.jpg",
+      "alt": "Cadillacs and Dinosaurs"
+    },
+    "boton": {
+      "texto": "Ver detalles",
+      "url": "#comprar"
+    }
+  },
+  {
+    "id": "11",
+    "titulo": "Sunset Riders",
+    "descripcion": "Trata sobre cuatro cazarrecompensas en el Lejano Oeste que buscan atrapar a varios forajidos.",
+    "precioNormal": "$25.000",
+    "precio": "$20.000",
+    "imagen": {
+      "src": "images/sunset-riders.jpg",
+      "alt": "Sunset Riders"
+    },
+    "boton": {
+      "texto": "Ver detalles",
+      "url": "#comprar"
+    }
+  },
+  {
+    "id": "12",
+    "titulo": "Pole Position",
+    "descripcion": "Primer juego de conducción en usar vista trasera del auto y una pista basada en un lugar real.",
+    "precioNormal": "$40.000",
+    "precio": "$35.000",
+    "imagen": {
+      "src": "images/pole-position.jpg",
+      "alt": "Pole Position"
+    },
+    "boton": {
+      "texto": "Ver detalles",
+      "url": "#comprar"
+    }
+  }
+]
