@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PixelVerse Games - Tu Tienda de Videojuegos</title>
+
+    <style>
+      /* cambia las lineas por circulos amarillos en el carrusel */
+      .carousel-indicators [data-bs-target] {
+        width: 15px !important;
+        height: 15px !important;
+        border-radius: 50% !important;
+        background-color: var(--texto-amarillo) !important;
+        border: none !important;
+        opacity: 0.5;
+        margin: 0 4px;
+      }
+
+      .carousel-indicators .active {
+        opacity: 1 !important;
+        transform: scale(1.2);
+      }
+    </style>
+  </head>
+
+  <body class="bg-dark text-white">
+    <div id="root"></div>
+
+    <!-- script principales -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

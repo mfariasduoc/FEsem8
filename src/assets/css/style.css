@@ -1,0 +1,51 @@
+:root {
+  --bg-principal: #1A1A2E;
+  --bg-tarjeta: #16213E;
+  --acento-rojo: #E94560;
+  --acento-cian: #00ADB5;
+  --texto-amarillo: #F9ED69;
+  --texto-secundario: #A0AEC0;
+}
+
+body {
+  background-color: var(--bg-principal);
+  color: #ffffff;
+}
+
+/* Colores personalizados del tema */
+.bg-custom-card { background-color: var(--bg-tarjeta); }
+.text-custom-yellow { color: var(--texto-amarillo); }
+.text-custom-cyan { color: var(--acento-cian); }
+.btn-custom-cyan {
+  background-color: var(--acento-cian);
+  color: var(--bg-principal);
+  font-weight: bold;
+  border: none;
+}
+.btn-custom-cyan:hover {
+  background-color: #00868c;
+  color: #ffffff;
+}
+
+/* Efecto hover en las tarjetas */
+.tarjeta {
+  border: 1px solid #233554;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 173, 181, 0.2);
+}
+
+/* Requerimiento NTH-CHILD(4N) para cada cuarta tarjeta */
+#productos .row > .col:nth-child(4n) .tarjeta {
+  background-color: #2a1b3d !important;
+  border: 2px solid var(--texto-amarillo) !important;
+}
+#productos .row > .col:nth-child(4n) .tarjeta .btn-custom-cyan {
+  background-color: var(--texto-amarillo) !important;
+  color: var(--bg-principal) !important;
+}
+#productos .row > .col:nth-child(4n) .tarjeta .btn-custom-cyan:hover {
+  background-color: #d4c747 !important;
+}
