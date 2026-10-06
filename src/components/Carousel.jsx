@@ -14,7 +14,7 @@ export default function Carousel() {
               data-bs-interval="3000"
             >
 
-              {/* indicadores */}
+              {/* Indicadores */}
               <div className="carousel-indicators">
                 <button
                   type="button"
@@ -25,41 +25,25 @@ export default function Carousel() {
                   aria-label="Slide 1"
                 ></button>
 
-                <button
-                  type="button"
-                  data-bs-target="#carruselJuegos"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-
-                <button
-                  type="button"
-                  data-bs-target="#carruselJuegos"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
-
-                <button
-                  type="button"
-                  data-bs-target="#carruselJuegos"
-                  data-bs-slide-to="3"
-                  aria-label="Slide 4"
-                ></button>
-
-                <button
-                  type="button"
-                  data-bs-target="#carruselJuegos"
-                  data-bs-slide-to="4"
-                  aria-label="Slide 5"
-                ></button>
+                <button type="button" data-bs-target="#carruselJuegos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carruselJuegos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carruselJuegos" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carruselJuegos" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carruselJuegos" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carruselJuegos" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carruselJuegos" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carruselJuegos" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#carruselJuegos" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                <button type="button" data-bs-target="#carruselJuegos" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                <button type="button" data-bs-target="#carruselJuegos" data-bs-slide-to="11" aria-label="Slide 12"></button>
               </div>
 
-              {/* imagenes del carrusel */}
+              {/* Imágenes del carrusel */}
               <div className="carousel-inner">
 
                 <div className="carousel-item text-center active">
                   <img
-                    src="/images/img01.webp"
+                    src={`${import.meta.env.BASE_URL}images/img01.webp`}
                     className="d-block w-100 object-fit-cover"
                     style={{ maxHeight: '350px' }}
                     alt="Imagen promocional 1"
@@ -68,7 +52,7 @@ export default function Carousel() {
 
                 <div className="carousel-item text-center">
                   <img
-                    src="/images/img02.webp"
+                    src={`${import.meta.env.BASE_URL}images/img02.webp`}
                     className="d-block w-100 object-fit-cover"
                     style={{ maxHeight: '350px' }}
                     alt="Imagen promocional 2"
@@ -77,7 +61,7 @@ export default function Carousel() {
 
                 <div className="carousel-item text-center">
                   <img
-                    src="/images/img03.webp"
+                    src={`${import.meta.env.BASE_URL}images/img03.webp`}
                     className="d-block w-100 object-fit-cover"
                     style={{ maxHeight: '350px' }}
                     alt="Imagen promocional 3"
@@ -86,7 +70,7 @@ export default function Carousel() {
 
                 <div className="carousel-item text-center">
                   <img
-                    src="/images/img04.webp"
+                    src={`${import.meta.env.BASE_URL}images/img04.webp`}
                     className="d-block w-100 object-fit-cover"
                     style={{ maxHeight: '350px' }}
                     alt="Imagen promocional 4"
@@ -95,10 +79,73 @@ export default function Carousel() {
 
                 <div className="carousel-item text-center">
                   <img
-                    src="/images/img05.webp"
+                    src={`${import.meta.env.BASE_URL}images/img05.webp`}
                     className="d-block w-100 object-fit-cover"
                     style={{ maxHeight: '350px' }}
                     alt="Imagen promocional 5"
+                  />
+                </div>
+
+                <div className="carousel-item text-center">
+                  <img
+                    src={`${import.meta.env.BASE_URL}images/img06.webp`}
+                    className="d-block w-100 object-fit-cover"
+                    style={{ maxHeight: '350px' }}
+                    alt="Imagen promocional 6"
+                  />
+                </div>
+
+                <div className="carousel-item text-center">
+                  <img
+                    src={`${import.meta.env.BASE_URL}images/img07.webp`}
+                    className="d-block w-100 object-fit-cover"
+                    style={{ maxHeight: '350px' }}
+                    alt="Imagen promocional 7"
+                  />
+                </div>
+
+                <div className="carousel-item text-center">
+                  <img
+                    src={`${import.meta.env.BASE_URL}images/img08.webp`}
+                    className="d-block w-100 object-fit-cover"
+                    style={{ maxHeight: '350px' }}
+                    alt="Imagen promocional 8"
+                  />
+                </div>
+
+                <div className="carousel-item text-center">
+                  <img
+                    src={`${import.meta.env.BASE_URL}images/img09.webp`}
+                    className="d-block w-100 object-fit-cover"
+                    style={{ maxHeight: '350px' }}
+                    alt="Imagen promocional 9"
+                  />
+                </div>
+
+                <div className="carousel-item text-center">
+                  <img
+                    src={`${import.meta.env.BASE_URL}images/img10.webp`}
+                    className="d-block w-100 object-fit-cover"
+                    style={{ maxHeight: '350px' }}
+                    alt="Imagen promocional 10"
+                  />
+                </div>
+
+                <div className="carousel-item text-center">
+                  <img
+                    src={`${import.meta.env.BASE_URL}images/img11.webp`}
+                    className="d-block w-100 object-fit-cover"
+                    style={{ maxHeight: '350px' }}
+                    alt="Imagen promocional 11"
+                  />
+                </div>
+
+                <div className="carousel-item text-center">
+                  <img
+                    src={`${import.meta.env.BASE_URL}images/img12.webp`}
+                    className="d-block w-100 object-fit-cover"
+                    style={{ maxHeight: '350px' }}
+                    alt="Imagen promocional 12"
                   />
                 </div>
 
