@@ -90,7 +90,7 @@ export default function Navbar({ busqueda, setBusqueda, cantidadCarrito, setLead
             <li className="nav-item">
               <a 
                 className="nav-link text-white" 
-                href="#contacto"
+                href="#formulario-contacto"
                 onMouseOver={handleMouseOverContacto}
                 onMouseOut={handleMouseOutContacto}
               >

@@ -19,7 +19,7 @@ export default function Cart({ carrito, onEliminar, onVaciar }) {
           <div className="col-lg-8">
             <div className="p-3 bg-dark rounded border border-secondary">
               {carrito.length === 0 ? (
-                <p className="text-center text-muted mb-0">Tu carrito está vacío.</p>
+                <p className="text-center text-custom-yellow fw-bold mb-0">Tu carrito está vacío.</p>
               ) : (
                 <>
                   <div className="d-flex justify-content-between align-items-center mb-3 pb-2 border-bottom border-secondary">
